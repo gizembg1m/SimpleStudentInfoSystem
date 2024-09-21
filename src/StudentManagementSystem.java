@@ -37,7 +37,7 @@ public class StudentManagementSystem {
         System.out.println("the student is not found!");
     }
 
-    public void deleteStudent(int id,String name,String email){
+    public void deleteStudent(int id){
         for (Student student : students){
             if (student.getId() == id){
                 students.remove(student);
